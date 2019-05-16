@@ -46,6 +46,6 @@ plt.title('Marks by Subject')
 plt.xticks(np.arange(len(subjects))+barwidth*(len(allmarks)/2), subjects)
 plt.legend()
 
-# Display the graph to user
-plt.show()
+# Save the graph in a file
+plt.savefig('allmarks.png')
 

@@ -17,6 +17,6 @@ plt.bar(tuple(marks.keys()), tuple(marks.values()), align='center', color='#ff3d
 plt.ylabel('%')
 plt.title('Marks by Subject')
 
-# Display the graph to user
-plt.show()
+# Save the graph in a file
+plt.savefig('marks.png')
 

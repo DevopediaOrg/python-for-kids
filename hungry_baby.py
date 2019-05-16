@@ -29,7 +29,7 @@ class Baby(threading.Thread):
         self.__piggy = piggy
         self.to_eat = None
         pygame.mixer.init()
-        pygame.mixer.music.load("cry-baby.mp3")
+        pygame.mixer.music.load("assets/baby-crying.mp3")
 
     def run(self):
         while self.__piggy.get_balance() > 0:
