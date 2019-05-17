@@ -1,3 +1,6 @@
+# This code is taken from https://github.com/mwharrisjr/Game-of-Life
+
+
 import time
 import os
 import random

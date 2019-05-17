@@ -20,7 +20,7 @@ for i, fname in enumerate(images):
     if i%2: # we invert alternative images
         img = ImageOps.invert(img)
 
-    # We arrange 9 images in a grid of 3x3
+    # We arrange 9 images in a grid of 3x3, column first
     offset = (20+(i//3)*420, 20+(i%3)*420)
 
     # Paste into collage
