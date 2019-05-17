@@ -1,2 +1,5 @@
-# python-for-kids
-Meant for kids aged 10-16. Less about Python syntax and more about inspiring kids towards programming.
+# Overview
+
+The content here is meant for kids aged 10-16. It's less about Python syntax and more about inspiring kids towards programming.
+
+Read the document [Python-For-Kids.pdf](Python-For-Kids.pdf) for details.
