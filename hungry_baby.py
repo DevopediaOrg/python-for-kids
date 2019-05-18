@@ -38,7 +38,6 @@ class Baby(threading.Thread):
 
             # How long will the baby wait: 3 seconds or less
             waittime = min(3, 100 / self.__piggy.get_balance())
-            print(waittime)
 
             item = print(get_prompt(self.__piggy.get_balance(), self.to_eat), end="")
 
