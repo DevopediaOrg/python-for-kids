@@ -12,21 +12,21 @@ print(length)
 count = [1, 1, 2, 3, 3, 3].count(3) <br>
 print(count)
 
-total_sum = sum([1, 2, 3, 4, 5])
+total_sum = sum([1, 2, 3, 4, 5])  <br>
 print(total_sum)
 
 
-reversed_str = "Hello, World!"[::-1]
+reversed_str = "Hello, World!"[::-1] <br>
 print(reversed_str)
 
 
-unique_list = list(set([1, 2, 2, 3, 3, 4]))
+unique_list = list(set([1, 2, 2, 3, 3, 4])) <br>
 print(unique_list)
 
-import math
-factorial = math.factorial(5)
+import math <br>
+factorial = math.factorial(5) <br>
 print(factorial)
 
 
-all_positive = all(num > 0 for num in [1, 2, 3, 4, 5, 5, 5, 6)
+all_positive = all(num > 0 for num in [1, 2, 3, 4, 5, 5, 5, 6) <br>
 print(all_positive)
