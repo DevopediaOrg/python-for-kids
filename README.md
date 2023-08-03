@@ -1,15 +1,15 @@
   for i in range(1, 11): print(i)
 
 
-squares = [i**2 for i in range(1, 11)]
+squares = [i**2 for i in range(1, 11)] <br>
 print(squares)
 
 
-length = len("Hello, World!")
+length = len("Hello, World!") <br>
 print(length)
 
 
-count = [1, 1, 2, 3, 3, 3].count(3)
+count = [1, 1, 2, 3, 3, 3].count(3) <br>
 print(count)
 
 total_sum = sum([1, 2, 3, 4, 5])
